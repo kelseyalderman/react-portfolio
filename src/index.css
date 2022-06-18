@@ -28,7 +28,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
@@ -90,6 +90,10 @@ a:hover {
 
 header {
   background: var(--dark);
+}
+
+header h1 {
+  color: var(--tertiary);
 }
 
 header a {
@@ -166,6 +170,57 @@ textarea {
   border: 3px solid #cccccc;
   padding: 5px;
 }
+
+/* HERO STYLES START */
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-img img {
+  max-width: 300px;
+  padding: 10px;
+}
+
+.hero-intro {
+  width: 30%;
+  text-align: left;
+  margin: 5%;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.hero-intro h2 {
+  color: var(--tertiary);
+}
+
+/* SECTION TITLE STYLES START */
+.section-title {
+  font-size: 36px;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0 auto 20px auto;
+  width: 50%;
+  color: var(--tertiary);
+}
+
+/* ABOUT ME STYLES START */
+.about {
+  margin-top: 20px;
+}
+
+.about p {
+  color: var(--secondary-color);
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* ABOUT ME STYLES END */
 
 .container {
   width: 85%;
