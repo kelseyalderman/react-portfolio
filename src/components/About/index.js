@@ -34,15 +34,6 @@ function About() {
         </div>
       </div>
     </section>
-    // <section className="my-5">
-    //   <h1 id="about">Hi, I'm Kelsey.</h1>
-    //   <img
-    //     src={portfolioImage}
-    //     className="my-2"
-    //     style={{ width: "50%" }}
-    //     alt="headshot"
-    //   />
-    // </section>
   );
 }
 
