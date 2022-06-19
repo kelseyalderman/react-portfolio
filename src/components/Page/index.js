@@ -3,6 +3,7 @@ import PageContent from "../PageContent";
 import About from "../About";
 import Contact from "../Contact";
 import Resume from "../Resume";
+import Portfolio from "../Portfolio";
 
 function Page({ currentPage }) {
   const renderPage = () => {
@@ -13,6 +14,8 @@ function Page({ currentPage }) {
         return <Contact />;
       case "resume":
         return <Resume />;
+      case "portfolio":
+        return <Portfolio />;
       default:
         return <About />;
     }
