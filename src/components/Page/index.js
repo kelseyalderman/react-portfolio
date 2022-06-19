@@ -2,6 +2,7 @@ import React from "react";
 import PageContent from "../PageContent";
 import About from "../About";
 import Contact from "../Contact";
+import Resume from "../Resume";
 
 function Page({ currentPage }) {
   const renderPage = () => {
@@ -10,6 +11,8 @@ function Page({ currentPage }) {
         return <About />;
       case "contact":
         return <Contact />;
+      case "resume":
+        return <Resume />;
       default:
         return <About />;
     }
