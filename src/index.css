@@ -34,7 +34,7 @@ body {
   letter-spacing: 0.1em;
   background: var(--dark);
   color: var(--light);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lucida Console", monospace;
 }
 
 h1,
@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lucida Console", monospace;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -185,6 +185,23 @@ textarea {
   margin-top: 10px;
 }
 
+footer {
+  font-size: 48px;
+  justify-content: center;
+}
+
+footer a {
+  color: var(--secondary);
+  opacity: 0.5;
+  margin: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  font-size: 40px;
+}
+
+footer a:hover {
+  opacity: 1;
+}
+
 /* HERO STYLES START */
 .hero {
   display: flex;
@@ -204,10 +221,11 @@ textarea {
   margin: 5%;
   font-size: 24px;
   line-height: 1.2;
+  color: var(--light);
 }
 
 .hero-intro h2 {
-  color: var(--tertiary);
+  color: var(--secondary);
 }
 
 /* SECTION TITLE STYLES START */
@@ -225,7 +243,7 @@ textarea {
 }
 
 .about p {
-  color: var(--secondary-color);
+  color: var(--tertiary);
   width: 80%;
   margin: 0 auto;
   margin-bottom: 20px;
