@@ -15,11 +15,11 @@ A personal portfolio built using React.
 
 ## Website
 
-https://whispering-retreat-47985.herokuapp.com/
+https://kelseyalderman.github.io/react-portfolio/
 
 ## Preview
 
-![Screenshot of Budget Tracker](assets/images/budget-tracker.jpeg)
+![Screenshot of React Portfolio](src/assets/images/react-portfolio.jpg)
 
 ## Contribution
 
