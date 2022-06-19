@@ -102,14 +102,16 @@ header a {
 
 button {
   font-size: 1rem;
+  font-weight: 600;
   text-decoration: none;
-  padding: 0.25rem 1rem;
   border-radius: 0.5rem;
   border: none;
+  color: #fff;
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
+  padding: 10px 15px;
 }
 
 button:hover {
@@ -134,8 +136,10 @@ form {
 }
 
 input {
+  margin: 10px 0;
   font-size: 1rem;
   padding: 0.25rem;
+  width: 600px;
   border: 1px solid var(--dark);
   outline: none;
   border-radius: 3px;
@@ -145,6 +149,11 @@ input {
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+label {
+  margin-right: 10px;
+  color: var(--tertiary);
 }
 
 li {
@@ -166,9 +175,10 @@ nav li {
 
 textarea {
   width: 600px;
-  height: 120px;
+  height: 200px;
   border: 3px solid #cccccc;
   padding: 5px;
+  margin-top: 10px;
 }
 
 /* HERO STYLES START */
@@ -199,7 +209,6 @@ textarea {
 /* SECTION TITLE STYLES START */
 .section-title {
   font-size: 36px;
-  color: var(--primary-color);
   text-align: center;
   margin: 0 auto 20px auto;
   width: 50%;
@@ -219,7 +228,6 @@ textarea {
   font-size: 20px;
   text-align: center;
 }
-
 /* ABOUT ME STYLES END */
 
 .container {
@@ -323,18 +331,6 @@ textarea {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 25px;
-}
-
-button {
-  background: var(--primary);
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
 }
 
 a {
