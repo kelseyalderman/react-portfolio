@@ -4,6 +4,11 @@ import Project from "../Project";
 function Portfolio() {
   const [projects] = useState([
     {
+      name: "deep-thoughts",
+      link: "https://ancient-reaches-24707.herokuapp.com/",
+      repo: "https://github.com/kelseyalderman/deep-thoughts.git",
+    },
+    {
       name: "budget-tracker",
       link: "https://whispering-retreat-47985.herokuapp.com/",
       repo: "https://github.com/kelseyalderman/budget-tracker.git",
