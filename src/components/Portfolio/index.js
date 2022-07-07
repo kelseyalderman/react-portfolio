@@ -4,7 +4,7 @@ import Project from "../Project";
 function Portfolio() {
   const [projects] = useState([
     {
-      name: "diy-sharing",
+      name: "DIY-explorer",
       link: "https://rocky-bayou-01919.herokuapp.com/",
       repo: "https://github.com/kelseyalderman/DIY-sharing.git",
     },
