@@ -11,7 +11,7 @@ function About() {
 
         <div className="hero-intro">
           <h2>Hi, I'm Kelsey.</h2>
-          <p>I'm an aspiring full-stack developer based in Portland, Oregon.</p>
+          <p>I'm a Full Stack Developer based in Portland, Oregon.</p>
         </div>
       </div>
 
@@ -21,15 +21,17 @@ function About() {
         </div>
         <div className="flex-row">
           <p>
-            I am currently a student in a full-stack coding bootcamp at the
-            University of Oregon. I have worked in management and operations for
-            the past 10 years, but decided to dive into coding after completing
-            an introductory course offered by SheCodes. I have a bachelor's
-            degree in psychology from Portland State University and a master's
-            degree in performance psychology from University of Western States.
-            I love the fast-pace, challenge, and opportunity for ongoing
-            learning that coding provides and cannot wait to get started in the
-            field!
+            Full Stack Web Developer with a passion for building and optimizing
+            user-focused applications. Leveraging extensive background in
+            operations, management, and performance development to find
+            innovative solutions, collaborate with teams, and execute agile
+            projects. Analytical, detailed-oriented, and motivated to deliver
+            high-quality products with proficiency. Received a certificate in
+            Full Stack Web Development through the University of Oregon.
+            Technical skills include HTML, CSS, Bootstrap, Javascript, MySQL,
+            Sequelize, GraphQL, and MERN stack. Experience in designing,
+            planning, and building full stack applications as well as front-end
+            and back-end optimization.
           </p>
         </div>
       </div>
