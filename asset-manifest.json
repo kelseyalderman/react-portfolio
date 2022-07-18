@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1f99ccf.css",
-    "main.js": "/static/js/main.3b8620a2.js",
+    "main.js": "/static/js/main.c5de0e66.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/portfolio-image.jpg": "/static/media/portfolio-image.6fe2ffdf45ace853285a.jpg",
     "static/media/run-buddy.jpg": "/static/media/run-buddy.0bb37cbc2244ce93b0ce.jpg",
@@ -15,13 +15,14 @@
     "static/media/tech-blog.jpg": "/static/media/tech-blog.5d705263001d43f22009.jpg",
     "static/media/code-quiz.jpg": "/static/media/code-quiz.04a136e9c33aea398c12.jpg",
     "static/media/note-taker.jpg": "/static/media/note-taker.cb2b78264ab95cc4780b.jpg",
+    "static/media/kalderman-resume.pdf": "/static/media/kalderman-resume.aa82fb390920b74c8d17.pdf",
     "index.html": "/index.html",
     "main.e1f99ccf.css.map": "/static/css/main.e1f99ccf.css.map",
-    "main.3b8620a2.js.map": "/static/js/main.3b8620a2.js.map",
+    "main.c5de0e66.js.map": "/static/js/main.c5de0e66.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1f99ccf.css",
-    "static/js/main.3b8620a2.js"
+    "static/js/main.c5de0e66.js"
   ]
 }
