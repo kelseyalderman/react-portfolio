@@ -28,7 +28,7 @@ function About() {
             projects. Analytical, detailed-oriented, and motivated to deliver
             high-quality products with proficiency. Received a certificate in
             Full Stack Web Development through the University of Oregon.
-            Technical skills include HTML, CSS, Bootstrap, Javascript, MySQL,
+            Technical skills include HTML, CSS, Bootstrap, JavaScript, MySQL,
             Sequelize, GraphQL, and MERN stack. Experience in designing,
             planning, and building full stack applications as well as front-end
             and back-end optimization.
